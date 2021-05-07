@@ -10,5 +10,5 @@ package clases;
  * @author gama5
  */
 public class Consultas {
-    
+    //jajaj ya consulte 
 }
