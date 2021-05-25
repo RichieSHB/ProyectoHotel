@@ -5,15 +5,26 @@
  */
 package main;
 
+import controlMySQL.MySqlConn;
+
 /**
  *
  * @author gama5
  */
 public class main {
+    MySqlConn objconn = new MySqlConn();
+
+    public main() {
+        //new Ventana().setVisible(true);
+        new Login(objconn).setVisible(true);
+    }
+    
+    
+    
     public static void main(String[] args) {
-        System.out.println("este es el main");
+        new main();
     }
 }
 
 //hola como estas?
-//Hola soy Chocoteco
+//Hola soy Chocotecocolor 
