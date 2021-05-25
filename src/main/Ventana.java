@@ -6,14 +6,17 @@
 package main;
 
 
-import java.awt.Graphics;
-import java.awt.Image;
 import javax.swing.ImageIcon;
-import javax.swing.JPanel;
 import clases.Imagenfondo;
+import com.itextpdf.text.Document;
 import controlMySQL.MySqlConn;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 
 
 /**
@@ -171,6 +174,11 @@ public class Ventana extends javax.swing.JFrame {
         });
 
         jButtonRecibo.setText("Generar Recibo");
+        jButtonRecibo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonReciboActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanelOutLayout = new javax.swing.GroupLayout(jPanelOut);
         jPanelOut.setLayout(jPanelOutLayout);
@@ -267,6 +275,17 @@ public class Ventana extends javax.swing.JFrame {
     private void jButtonBajaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBajaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButtonBajaActionPerformed
+
+    private void jButtonReciboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonReciboActionPerformed
+        Document documento = new Document();
+        try {
+            FileOutputStream PDF = new FileOutputStream("Recibo de Hotel.pdf");
+        } catch (FileNotFoundException ex) {
+            JOptionPane.showMessageDialog(rootPane,"No se pudo generar el Archivo");
+        }
+        documento.open();
+        documento.close();
+    }//GEN-LAST:event_jButtonReciboActionPerformed
 
     /**
      * @param args the command line arguments
