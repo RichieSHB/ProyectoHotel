@@ -26,6 +26,9 @@ public class Imagenfondo extends JPanel{
                     break;
             case 3: eleccion = "/imagenes/Lucky38Presentacion.jpg";
                     break;
+            case 4: eleccion = "/imagenes/Lucky38FileChooser.jpg";
+                    break;
+            
             default: eleccion = "/imagenes/Lucky38Presentacion.jpg";
                     
         }

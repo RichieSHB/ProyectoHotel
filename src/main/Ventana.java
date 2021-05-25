@@ -121,7 +121,7 @@ public class Ventana extends javax.swing.JFrame {
                 .addComponent(jPanelMuestra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(144, Short.MAX_VALUE))
             .addGroup(jPanelImgLayout.createSequentialGroup()
-                .addGap(15, 15, 15)
+                .addGap(26, 26, 26)
                 .addComponent(jButtonAgregarImg)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButtonSiguienteImg)
@@ -134,10 +134,13 @@ public class Ventana extends javax.swing.JFrame {
                 .addComponent(jPanelMuestra, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabelImagenesMuestra)
-                .addGap(18, 18, 18)
-                .addGroup(jPanelImgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButtonAgregarImg)
-                    .addComponent(jButtonSiguienteImg))
+                .addGroup(jPanelImgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanelImgLayout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jButtonSiguienteImg))
+                    .addGroup(jPanelImgLayout.createSequentialGroup()
+                        .addGap(9, 9, 9)
+                        .addComponent(jButtonAgregarImg)))
                 .addContainerGap(35, Short.MAX_VALUE))
         );
 
@@ -218,13 +221,8 @@ public class Ventana extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonAgregarImgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAgregarImgActionPerformed
-        JFileChooser selectorArchivos = new JFileChooser();
-        selectorArchivos.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
-        int ventana = selectorArchivos.showOpenDialog(null);
-        if (ventana == JFileChooser.APPROVE_OPTION) {
-            File file = selectorArchivos.getSelectedFile();
-            
-        }
+        new AgregarImg(conn).setVisible(true);
+        
     }//GEN-LAST:event_jButtonAgregarImgActionPerformed
 
     /**
