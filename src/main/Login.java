@@ -5,13 +5,17 @@
  */
 package main;
 
+import clases.Audio;
 import clases.Imagenfondo;
 import controlMySQL.MySqlConn;
 import java.awt.event.KeyEvent;
 import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import org.apache.commons.codec.digest.DigestUtils;
+
 
 /**
  *
@@ -19,14 +23,15 @@ import org.apache.commons.codec.digest.DigestUtils;
  */
 public class Login extends javax.swing.JFrame {
     MySqlConn conn;
-
+    Audio cancion = new Audio();
     /**
      * Creates new form Login
      */
     public Login(MySqlConn conn) {
         this.setIconImage(new ImageIcon(getClass().getResource("/imagenes/IconoLucky38.png")).getImage());
         this.conn = conn;
-        initComponents();
+        cancion.ClipAudio();     
+        initComponents();       
     }
 
     public Login() {
@@ -209,3 +214,5 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JTextField jTextFieldLogin;
     // End of variables declaration//GEN-END:variables
 }
+
+

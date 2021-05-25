@@ -12,6 +12,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import clases.Imagenfondo;
 import controlMySQL.MySqlConn;
+import java.io.File;
+import javax.swing.JFileChooser;
 
 
 /**
@@ -98,6 +100,11 @@ public class Ventana extends javax.swing.JFrame {
         jLabelImagenesMuestra.setText("Imagenes de Muestra");
 
         jButtonAgregarImg.setText("Agregar Imagen");
+        jButtonAgregarImg.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonAgregarImgActionPerformed(evt);
+            }
+        });
 
         jButtonSiguienteImg.setText("Siguiente");
 
@@ -209,6 +216,16 @@ public class Ventana extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButtonAgregarImgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAgregarImgActionPerformed
+        JFileChooser selectorArchivos = new JFileChooser();
+        selectorArchivos.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+        int ventana = selectorArchivos.showOpenDialog(null);
+        if (ventana == JFileChooser.APPROVE_OPTION) {
+            File file = selectorArchivos.getSelectedFile();
+            
+        }
+    }//GEN-LAST:event_jButtonAgregarImgActionPerformed
 
     /**
      * @param args the command line arguments
