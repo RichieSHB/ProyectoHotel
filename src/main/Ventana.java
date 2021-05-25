@@ -62,9 +62,11 @@ public class Ventana extends javax.swing.JFrame {
         jButtonAgregarImg = new javax.swing.JButton();
         jButtonSiguienteImg = new javax.swing.JButton();
         jPanelIn = new javax.swing.JPanel();
-        jPanelOut = new javax.swing.JPanel();
-        jPanelBajas = new javax.swing.JPanel();
-        jLabelImagenBajas = new javax.swing.JLabel();
+        jPanelOut = new Imagenfondo(4);
+        jLabel1 = new javax.swing.JLabel();
+        jTextFieldHabitacionBajas = new javax.swing.JTextField();
+        jButtonBaja = new javax.swing.JButton();
+        jButtonRecibo = new javax.swing.JButton();
         jPanelCon = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -158,32 +160,48 @@ public class Ventana extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Registro", jPanelIn);
 
-        jLabelImagenBajas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bajas.jpg"))); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 2, 18)); // NOI18N
+        jLabel1.setText("Numero de Habitación:");
 
-        javax.swing.GroupLayout jPanelBajasLayout = new javax.swing.GroupLayout(jPanelBajas);
-        jPanelBajas.setLayout(jPanelBajasLayout);
-        jPanelBajasLayout.setHorizontalGroup(
-            jPanelBajasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabelImagenBajas)
-        );
-        jPanelBajasLayout.setVerticalGroup(
-            jPanelBajasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabelImagenBajas, javax.swing.GroupLayout.PREFERRED_SIZE, 648, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
+        jButtonBaja.setText("Baja");
+        jButtonBaja.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonBajaActionPerformed(evt);
+            }
+        });
+
+        jButtonRecibo.setText("Generar Recibo");
 
         javax.swing.GroupLayout jPanelOutLayout = new javax.swing.GroupLayout(jPanelOut);
         jPanelOut.setLayout(jPanelOutLayout);
         jPanelOutLayout.setHorizontalGroup(
             jPanelOutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelOutLayout.createSequentialGroup()
-                .addComponent(jPanelBajas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 8, Short.MAX_VALUE))
+                .addGroup(jPanelOutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanelOutLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel1)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextFieldHabitacionBajas, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanelOutLayout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(jButtonBaja, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(38, 38, 38)
+                        .addComponent(jButtonRecibo)))
+                .addContainerGap(698, Short.MAX_VALUE))
         );
         jPanelOutLayout.setVerticalGroup(
             jPanelOutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelOutLayout.createSequentialGroup()
-                .addComponent(jPanelBajas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(41, 41, 41)
+                .addGroup(jPanelOutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(jTextFieldHabitacionBajas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(66, 66, 66)
+                .addGroup(jPanelOutLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButtonBaja)
+                    .addComponent(jButtonRecibo))
+                .addContainerGap(359, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Salida", jPanelOut);
@@ -246,6 +264,10 @@ public class Ventana extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButtonAgregarImgActionPerformed
 
+    private void jButtonBajaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBajaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonBajaActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -283,11 +305,12 @@ public class Ventana extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonAgregarImg;
+    private javax.swing.JButton jButtonBaja;
+    private javax.swing.JButton jButtonRecibo;
     private javax.swing.JButton jButtonSiguienteImg;
-    private javax.swing.JLabel jLabelImagenBajas;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabelImagenesMuestra;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanelBajas;
     private javax.swing.JPanel jPanelCon;
     private javax.swing.JPanel jPanelImg;
     private javax.swing.JPanel jPanelIn;
@@ -295,6 +318,7 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JPanel jPanelOut;
     private javax.swing.JPanel jPanelPrin;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTextField jTextFieldHabitacionBajas;
     // End of variables declaration//GEN-END:variables
 }
 
