@@ -81,6 +81,13 @@
                                   <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
                                   <Component id="jButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
+=======
+                              </Group>
+                              <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabelCiudad" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jLabelFechaLlegada" alignment="1" max="32767" attributes="0"/>
+>>>>>>> parent of 4dd67a0 (Registro 4.0)
                               </Group>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -119,10 +126,13 @@
                                               <Component id="jSpinner2" max="32767" attributes="0"/>
                                           </Group>
                                       </Group>
+<<<<<<< HEAD
                                       <Group type="102" attributes="0">
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Component id="jButton3" min="-2" max="-2" attributes="0"/>
                                       </Group>
+=======
+>>>>>>> parent of 4dd67a0 (Registro 4.0)
                                   </Group>
                               </Group>
                           </Group>
@@ -147,6 +157,7 @@
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="102" attributes="0">
+<<<<<<< HEAD
                                   <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
@@ -157,6 +168,18 @@
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jTextField4" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                                  <Component id="jLabelTitulo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabelNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldNombre" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabelCiudad" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldCiudad" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> parent of 4dd67a0 (Registro 4.0)
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
@@ -165,8 +188,13 @@
                           </Group>
                           <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
+<<<<<<< HEAD
                               <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
                               <Component id="jDateChooser2" linkSize="6" min="-2" max="-2" attributes="0"/>
+=======
+                              <Component id="jLabelFechaSalida" min="-2" max="-2" attributes="0"/>
+                              <Component id="jDateChooserFechaSalida" linkSize="6" min="-2" max="-2" attributes="0"/>
+>>>>>>> parent of 4dd67a0 (Registro 4.0)
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -184,8 +212,13 @@
                           </Group>
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD
                               <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jSpinner1" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                              <Component id="jLabelNumeroPersonas" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNumeroPersona" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> parent of 4dd67a0 (Registro 4.0)
                           </Group>
                           <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -251,6 +284,7 @@
             <Property name="text" type="java.lang.String" value="LIMITE HUESPED"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="jTextField1">
           <Properties>
             <Property name="text" type="java.lang.String" value="jTextField1"/>
@@ -265,6 +299,13 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="jTextField1"/>
           </Properties>
+=======
+        <Component class="javax.swing.JTextField" name="jTextFieldNombre">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldCiudad">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldLimiteHuesped">
+>>>>>>> parent of 4dd67a0 (Registro 4.0)
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField5ActionPerformed"/>
           </Events>
@@ -288,7 +329,11 @@
             </Component>
           </SubComponents>
         </Container>
+<<<<<<< HEAD
         <Component class="javax.swing.JComboBox" name="jComboBox1">
+=======
+        <Component class="javax.swing.JComboBox" name="jComboBoxHabitacionTipo">
+>>>>>>> parent of 4dd67a0 (Registro 4.0)
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="4">
@@ -308,6 +353,7 @@
             <Property name="text" type="java.lang.String" value="NUMERO DE HABITACION"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JSpinner" name="jSpinner1">
         </Component>
         <Component class="javax.swing.JTextField" name="jTextField8">
@@ -316,6 +362,13 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JSpinner" name="jSpinner2">
+=======
+        <Component class="javax.swing.JSpinner" name="jSpinnerNumeroPersona">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldHabitacionNumero">
+        </Component>
+        <Component class="javax.swing.JSpinner" name="jSpinnerNumeroPiso">
+>>>>>>> parent of 4dd67a0 (Registro 4.0)
         </Component>
         <Component class="javax.swing.JCheckBox" name="jCheckBox1">
           <Properties>

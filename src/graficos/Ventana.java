@@ -91,14 +91,22 @@ public class Ventana extends javax.swing.JFrame {
             jPanelInLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelInLayout.createSequentialGroup()
                 .addContainerGap()
+<<<<<<< HEAD
                 .addComponent(registro1, javax.swing.GroupLayout.PREFERRED_SIZE, 1024, Short.MAX_VALUE)
+=======
+                .addComponent(registro1, javax.swing.GroupLayout.DEFAULT_SIZE, 1009, Short.MAX_VALUE)
+>>>>>>> parent of 4dd67a0 (Registro 4.0)
                 .addContainerGap())
         );
         jPanelInLayout.setVerticalGroup(
             jPanelInLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelInLayout.createSequentialGroup()
                 .addContainerGap()
+<<<<<<< HEAD
                 .addComponent(registro1, javax.swing.GroupLayout.DEFAULT_SIZE, 502, Short.MAX_VALUE)
+=======
+                .addComponent(registro1, javax.swing.GroupLayout.DEFAULT_SIZE, 484, Short.MAX_VALUE)
+>>>>>>> parent of 4dd67a0 (Registro 4.0)
                 .addContainerGap())
         );
 
