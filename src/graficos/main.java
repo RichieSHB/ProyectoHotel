@@ -16,7 +16,8 @@ public class main {
 
     public main() {
         //new Ventana().setVisible(true);
-        new Login(objconn).setVisible(true);
+        //new Login(objconn).setVisible(true);
+        new Portada(objconn).setVisible(true);
     }
     
     
