@@ -76,6 +76,7 @@ public class Portada extends javax.swing.JFrame {
         // TODO add your handling code here:
         // TODO add your handling code here:
         Login hotel = new Login(conn);
+        hotel.setLocationRelativeTo(null);
         hotel.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jLabel1MouseClicked

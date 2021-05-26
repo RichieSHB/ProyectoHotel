@@ -228,7 +228,10 @@ public class Ventana extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonAgregarImgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAgregarImgActionPerformed
-        new AgregarImg(conn).setVisible(true);
+        AgregarImg e = new AgregarImg(conn);
+        e.setLocationRelativeTo(null);
+        e.setVisible(true);
+        //new AgregarImg(conn).setVisible(true);
         
     }//GEN-LAST:event_jButtonAgregarImgActionPerformed
 
