@@ -32,6 +32,9 @@ public class registro extends javax.swing.JPanel {
         jPanel2 = new javax.swing.JPanel();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
@@ -46,6 +49,7 @@ public class registro extends javax.swing.JPanel {
         jTextField5 = new javax.swing.JTextField();
         jDateChooser1 = new com.toedter.calendar.JDateChooser();
         jDateChooser2 = new com.toedter.calendar.JDateChooser();
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
@@ -64,6 +68,8 @@ public class registro extends javax.swing.JPanel {
         jDateChooserFechaLlegada = new com.toedter.calendar.JDateChooser();
         jDateChooserFechaSalida = new com.toedter.calendar.JDateChooser();
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jComboBox1 = new javax.swing.JComboBox<>();
@@ -84,6 +90,7 @@ public class registro extends javax.swing.JPanel {
         });
         jScrollPane2.setViewportView(jList1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         jLabel7.setText("NOMBRE DEL HUESPED");
@@ -114,25 +121,37 @@ public class registro extends javax.swing.JPanel {
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
         jLabelNombre.setText("NOMBRE DEL HUESPED");
+=======
+        jLabel7.setText("NOMBRE DEL HUESPED");
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
 
-        jLabelTitulo.setText("R E G I S T R O ");
+        jLabel8.setText("R E G I S T R O ");
 
-        jLabelCiudad.setText("CIUDAD DE ORIGEN");
+        jLabel13.setText("CIUDAD DE ORIGEN");
 
-        jLabelFechaLlegada.setText("FECHA DE LLEGADA");
+        jLabel14.setText("FECHA DE LLEGADA");
 
-        jLabelNumeroPersonas.setText("NUMERO DE PERSONAS");
+        jLabel15.setText("NUMERO DE PERSONAS");
 
-        jLabelFechaSalida.setText("FECHA DE SALIDA");
+        jLabel16.setText("FECHA DE SALIDA");
 
-        jLabelHabitacionTipo.setText("TIPO DE HABITACION");
+        jLabel17.setText("TIPO DE HABITACION");
 
-        jLabelNumeroPiso.setText("NUMERO DE PISO");
+        jLabel20.setText("NUMERO DE PISO");
 
-        jLabelLimiteHuesped.setText("LIMITE HUESPED");
+        jLabel23.setText("LIMITE HUESPED");
 
+<<<<<<< HEAD
         jTextFieldLimiteHuesped.addActionListener(new java.awt.event.ActionListener() {
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+        jTextField1.setText("jTextField1");
+
+        jTextField4.setText("jTextField1");
+
+        jTextField5.setText("jTextField1");
+        jTextField5.addActionListener(new java.awt.event.ActionListener() {
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField5ActionPerformed(evt);
             }
@@ -142,6 +161,7 @@ public class registro extends javax.swing.JPanel {
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -169,8 +189,13 @@ public class registro extends javax.swing.JPanel {
 <<<<<<< HEAD
 =======
         jComboBoxHabitacionTipo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+=======
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
 
-        jLabelHabitacionNumero.setText("NUMERO DE HABITACION");
+        jLabel1.setText("NUMERO DE HABITACION");
+
+        jTextField8.setText("jTextField8");
 
         jCheckBox1.setText("jCheckBox1");
 
@@ -207,10 +232,14 @@ public class registro extends javax.swing.JPanel {
                         .addGap(18, 18, 18)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                             .addComponent(jTextField1)
                             .addComponent(jTextField4)
                             .addComponent(jDateChooser1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jDateChooser2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+<<<<<<< HEAD
 =======
                             .addComponent(jTextFieldNombre)
                             .addComponent(jTextFieldCiudad)
@@ -220,6 +249,8 @@ public class registro extends javax.swing.JPanel {
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jButton2)
@@ -263,6 +294,7 @@ public class registro extends javax.swing.JPanel {
                             .addGroup(jPanel2Layout.createSequentialGroup()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 .addComponent(jLabel8)
                                 .addGap(33, 33, 33)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -299,38 +331,46 @@ public class registro extends javax.swing.JPanel {
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
                                 .addComponent(jLabelTitulo)
+=======
+                                .addComponent(jLabel8)
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                                 .addGap(33, 33, 33)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabelNombre)
-                                    .addComponent(jTextFieldNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jLabel7)
+                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jLabelCiudad)
-                                    .addComponent(jTextFieldCiudad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jLabel13)
+                                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
-                                .addComponent(jLabelFechaLlegada))
-                            .addComponent(jDateChooserFechaLlegada, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jLabel14))
+                            .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(21, 21, 21)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabelFechaSalida)
-                            .addComponent(jDateChooserFechaSalida, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel16)
+                            .addComponent(jDateChooser2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabelHabitacionTipo)
-                            .addComponent(jLabelLimiteHuesped)
-                            .addComponent(jTextFieldLimiteHuesped, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBoxHabitacionTipo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel17)
+                            .addComponent(jLabel23)
+                            .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(16, 16, 16)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabelHabitacionNumero)
-                            .addComponent(jLabelNumeroPiso)
-                            .addComponent(jTextFieldHabitacionNumero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSpinnerNumeroPiso, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel20)
+                            .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jSpinner2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(20, 20, 20)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+<<<<<<< HEAD
                             .addComponent(jLabelNumeroPersonas)
                             .addComponent(jSpinnerNumeroPersona, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+                            .addComponent(jLabel15)
+                            .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                         .addGap(32, 32, 32)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jCheckBox1)
@@ -345,6 +385,7 @@ public class registro extends javax.swing.JPanel {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jDateChooser1, jDateChooser2, jTextField1, jTextField4});
 =======
         jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jDateChooserFechaLlegada, jDateChooserFechaSalida, jTextFieldCiudad, jTextFieldNombre});
@@ -352,6 +393,9 @@ public class registro extends javax.swing.JPanel {
 =======
         jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jDateChooserFechaLlegada, jDateChooserFechaSalida, jTextFieldCiudad, jTextFieldNombre});
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+        jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jDateChooser1, jDateChooser2, jTextField1, jTextField4});
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -383,6 +427,9 @@ public class registro extends javax.swing.JPanel {
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox2;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
     private javax.swing.JComboBox<String> jComboBox1;
     private com.toedter.calendar.JDateChooser jDateChooser1;
     private com.toedter.calendar.JDateChooser jDateChooser2;
@@ -396,6 +443,7 @@ public class registro extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+<<<<<<< HEAD
 =======
     private javax.swing.JComboBox<String> jComboBoxHabitacionTipo;
     private com.toedter.calendar.JDateChooser jDateChooserFechaLlegada;
@@ -414,10 +462,13 @@ public class registro extends javax.swing.JPanel {
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
     private javax.swing.JList<String> jList1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     private javax.swing.JSpinner jSpinner1;
@@ -441,5 +492,14 @@ public class registro extends javax.swing.JPanel {
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+    private javax.swing.JSpinner jSpinner1;
+    private javax.swing.JSpinner jSpinner2;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField8;
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
     // End of variables declaration//GEN-END:variables
 }

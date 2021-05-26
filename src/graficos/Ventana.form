@@ -112,12 +112,16 @@
                           <EmptySpace max="-2" attributes="0"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                           <Component id="registro1" pref="1024" max="32767" attributes="0"/>
 =======
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
                           <Component id="registro1" pref="1009" max="32767" attributes="0"/>
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+                          <Component id="registro1" pref="1024" max="32767" attributes="0"/>
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -128,12 +132,16 @@
                           <EmptySpace max="-2" attributes="0"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                           <Component id="registro1" pref="502" max="32767" attributes="0"/>
 =======
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
                           <Component id="registro1" pref="484" max="32767" attributes="0"/>
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+                          <Component id="registro1" pref="502" max="32767" attributes="0"/>
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>

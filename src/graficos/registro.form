@@ -87,11 +87,14 @@
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
                               </Group>
+<<<<<<< HEAD
                               <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="jLabelCiudad" alignment="1" max="32767" attributes="0"/>
                                   <Component id="jLabelFechaLlegada" alignment="1" max="32767" attributes="0"/>
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
                               </Group>
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -131,14 +134,20 @@
                                       </Group>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                                       <Group type="102" attributes="0">
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Component id="jButton3" min="-2" max="-2" attributes="0"/>
                                       </Group>
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                                   </Group>
                               </Group>
                           </Group>
@@ -165,6 +174,7 @@
                               <Group type="102" attributes="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                   <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
 =======
                                   <Component id="jLabelTitulo" min="-2" max="-2" attributes="0"/>
@@ -181,18 +191,26 @@
                                       <Component id="jTextField4" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
 =======
                                   <Component id="jLabelTitulo" min="-2" max="-2" attributes="0"/>
+=======
+                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                                   <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabelNombre" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jTextFieldNombre" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextField1" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
                                       <Component id="jLabelCiudad" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jTextFieldCiudad" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+                                      <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextField4" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
@@ -203,6 +221,7 @@
                           <Group type="103" groupAlignment="1" attributes="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
                               <Component id="jDateChooser2" linkSize="6" min="-2" max="-2" attributes="0"/>
 =======
@@ -211,6 +230,10 @@
                               <Component id="jLabelFechaSalida" min="-2" max="-2" attributes="0"/>
                               <Component id="jDateChooserFechaSalida" linkSize="6" min="-2" max="-2" attributes="0"/>
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+                              <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                              <Component id="jDateChooser2" linkSize="6" min="-2" max="-2" attributes="0"/>
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -229,6 +252,7 @@
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
                               <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jSpinner1" alignment="3" min="-2" max="-2" attributes="0"/>
 =======
@@ -238,6 +262,10 @@
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinner1" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                           </Group>
                           <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -305,10 +333,14 @@
         </Component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
         <Component class="javax.swing.JTextField" name="jTextField1">
           <Properties>
             <Property name="text" type="java.lang.String" value="jTextField1"/>
           </Properties>
+<<<<<<< HEAD
         </Component>
         <Component class="javax.swing.JTextField" name="jTextField4">
           <Properties>
@@ -323,14 +355,26 @@
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
         <Component class="javax.swing.JTextField" name="jTextFieldNombre">
+=======
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextFieldCiudad">
+        <Component class="javax.swing.JTextField" name="jTextField4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="jTextFieldLimiteHuesped">
 <<<<<<< HEAD
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+        <Component class="javax.swing.JTextField" name="jTextField5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField5ActionPerformed"/>
           </Events>
@@ -356,6 +400,7 @@
         </Container>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Component class="javax.swing.JComboBox" name="jComboBox1">
 =======
         <Component class="javax.swing.JComboBox" name="jComboBoxHabitacionTipo">
@@ -363,6 +408,9 @@
 =======
         <Component class="javax.swing.JComboBox" name="jComboBoxHabitacionTipo">
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="4">
@@ -384,6 +432,7 @@
         </Component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Component class="javax.swing.JSpinner" name="jSpinner1">
         </Component>
         <Component class="javax.swing.JTextField" name="jTextField8">
@@ -401,11 +450,21 @@
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
 =======
         <Component class="javax.swing.JSpinner" name="jSpinnerNumeroPersona">
+=======
+        <Component class="javax.swing.JSpinner" name="jSpinner1">
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextFieldHabitacionNumero">
+        <Component class="javax.swing.JTextField" name="jTextField8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField8"/>
+          </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JSpinner" name="jSpinnerNumeroPiso">
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+        <Component class="javax.swing.JSpinner" name="jSpinner2">
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
         </Component>
         <Component class="javax.swing.JCheckBox" name="jCheckBox1">
           <Properties>

@@ -93,12 +93,16 @@ public class Ventana extends javax.swing.JFrame {
                 .addContainerGap()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addComponent(registro1, javax.swing.GroupLayout.PREFERRED_SIZE, 1024, Short.MAX_VALUE)
 =======
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
                 .addComponent(registro1, javax.swing.GroupLayout.DEFAULT_SIZE, 1009, Short.MAX_VALUE)
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+                .addComponent(registro1, javax.swing.GroupLayout.PREFERRED_SIZE, 1024, Short.MAX_VALUE)
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                 .addContainerGap())
         );
         jPanelInLayout.setVerticalGroup(
@@ -107,12 +111,16 @@ public class Ventana extends javax.swing.JFrame {
                 .addContainerGap()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addComponent(registro1, javax.swing.GroupLayout.DEFAULT_SIZE, 502, Short.MAX_VALUE)
 =======
 =======
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
                 .addComponent(registro1, javax.swing.GroupLayout.DEFAULT_SIZE, 484, Short.MAX_VALUE)
 >>>>>>> parent of 4dd67a0 (Registro 4.0)
+=======
+                .addComponent(registro1, javax.swing.GroupLayout.DEFAULT_SIZE, 502, Short.MAX_VALUE)
+>>>>>>> parent of db641ab (Revert "Revert "NombreVariables"")
                 .addContainerGap())
         );
 
